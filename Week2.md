@@ -43,3 +43,22 @@ s = "aab"
 p = "c*a*b"
 Output: true
 ```
+
+**Bài 3:**
+Cho một mảng số nguyên chưa được sắp xếp. Tìm số nguyên dương nhỏ nhất còn thiếu ở trong mảng.
+
+Ví dụ:
+```
+Input: [1,2,0]
+Output: 3
+```
+
+```
+Input: [3,4,-1,1]
+Output: 2
+```
+
+```
+Input: [7,8,9,11,12]
+Output: 1
+```
