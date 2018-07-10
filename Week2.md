@@ -17,8 +17,11 @@ dịch bước 5: [6, 7, 8, 9, 10, 1, 2, 3, 4, 5]
 Cho hai chuỗi s và p, kiểm tra xem hai chuỗi có matching với nhau hay không.
 s chứa các ký tự thường từ `a-z`
 p chứa các ký tự thường từ `a-z` và hai ký tự `.` và `*`
+
 `.` tương ứng với 1 ký tự bất kỳ
-`*` tương ứng với không có ký tự nào hoặc 1 chuỗi các ký tự đằng trước dấu *
+
+`*` tương ứng với không có ký tự nào hoặc 1 chuỗi các ký tự đằng trước dấu `*`
+
 Ví dụ:
 ```
 s = "aa"
