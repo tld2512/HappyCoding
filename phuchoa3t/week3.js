@@ -56,6 +56,16 @@ function check(arr, i) {
             return false;
         }
     }
+
+    var rowStart = parseInt(row / 3) * 3;
+    var colStart = parseInt(col / 3) * 3;
+    for (m = rowStart; m < rowStart + 3; m++) {
+        for (n = colStart; n < colStart + 3; n++) {
+            if (arr[m][n] == arr[row][col] && m != row && n != col) {
+                return false;
+            }
+        }
+    }
     return true;
 }
 
